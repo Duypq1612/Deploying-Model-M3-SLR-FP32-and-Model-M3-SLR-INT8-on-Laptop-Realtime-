@@ -2,7 +2,7 @@
 
 Chào mừng bạn đến với dự án AI nhận dạng ngôn ngữ ký hiệu! Đây là một hệ thống được thiết kế để chạy mượt mà trên thiết bị laptop cá nhân. Dự án hỗ trợ nhận diện qua luồng video trực tiếp (webcam realtime) và cung cấp một API server (FastAPI) để xử lý các video được tải lên.
 
-![Demo]([Thêm link ảnh hoặc ảnh GIF bạn đang test nhận dạng thành công vào đây])
+
 
 ## ✨ Tính năng nổi bật
 
