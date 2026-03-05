@@ -17,8 +17,7 @@ Chào mừng bạn đến với dự án AI nhận dạng ngôn ngữ ký hiệu
 ##  Cấu trúc thư mục
 
 ```text
-nhan-dang-ngon-ngu-ky-hieu/
-│
+UsimKD/│
 ├── models/                  # Chứa file nhãn .csv và text hướng dẫn tải model (Vì file model lớn nên không tải trực tiếp lên GitHub)
 ├── main_realtime_(..).py            # Chứa script chạy nhận dạng qua Webcam laptop
 │       
@@ -29,7 +28,7 @@ nhan-dang-ngon-ngu-ky-hieu/
 └── README.md                # Tài liệu hướng dẫn (Bạn đang đọc nó đây!)
 ```
 
-## 🚀 Hướng dẫn Cài đặt
+##  Hướng dẫn Cài đặt
 
 **Bước 1:** Clone (Tải) kho lưu trữ này về máy tính của bạn:
 \`bash
@@ -46,7 +45,7 @@ pip install -r requirements.txt
 * Vì giới hạn dung lượng của GitHub, các file model không được tải lên trực tiếp.
 * Vui lòng tải 4 file model tại https://drive.google.com/drive/folders/12Y0e17dUGkOCPnOiLAkddmU5CMDqNegb?usp=sharing
 
-## 💻 Hướng dẫn Sử dụng
+##  Hướng dẫn Sử dụng
 
 ### 1. Chạy nhận dạng trực tiếp qua Webcam (Realtime)
 Mở terminal và chạy lệnh sau để bật camera:
