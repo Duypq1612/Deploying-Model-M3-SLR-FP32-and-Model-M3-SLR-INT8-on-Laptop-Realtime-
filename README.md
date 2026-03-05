@@ -1,22 +1,22 @@
-# 🤟 AI Nhận Dạng Ngôn Ngữ Ký Hiệu (Sign Language Recognition)
+#  AI Nhận Dạng Ngôn Ngữ Ký Hiệu (Sign Language Recognition)
 
 Chào mừng bạn đến với dự án AI nhận dạng ngôn ngữ ký hiệu! Đây là một hệ thống được thiết kế để chạy mượt mà trên thiết bị laptop cá nhân. Dự án hỗ trợ nhận diện qua luồng video trực tiếp (webcam realtime) và cung cấp một API server (FastAPI) để xử lý các video được tải lên.
 
 
 
-## ✨ Tính năng nổi bật
+##  Tính năng nổi bật
 
-* **⚡ Nhận dạng Realtime qua Webcam:** Xử lý trực tiếp hình ảnh từ camera laptop, hiển thị khung hình và kết quả từ vựng ngôn ngữ ký hiệu ngay trên màn hình.
-* **🎯 Độ chính xác ổn định:** Mô hình đạt độ chính xác lên đến 78% trong điều kiện thực tế.
-* **🧠 Đa dạng phiên bản Model:** Tích hợp script chạy thử nghiệm qua lại giữa 4 phiên bản model để so sánh hiệu năng:
+* ** Nhận dạng Realtime qua Webcam:** Xử lý trực tiếp hình ảnh từ camera laptop, hiển thị khung hình và kết quả từ vựng ngôn ngữ ký hiệu ngay trên màn hình.
+* ** Độ chính xác ổn định:** Mô hình đạt độ chính xác lên đến 78% trong điều kiện thực tế.
+* ** Đa dạng phiên bản Model:** Tích hợp script chạy thử nghiệm qua lại giữa 4 phiên bản model để so sánh hiệu năng:
     * Mô hình gốc (Checkpoint FP32)
     * Mô hình ONNX (FP32)
     * Mô hình lượng tử hóa (Quantization INT8) - 2 phiên bản
-* **🌐 Web API chạy ngầm (FastAPI):** Cung cấp API endpoint `/predict` xử lý video tải lên, tự động trích xuất 8 khung hình và sử dụng mô hình tối ưu siêu nhẹ (OpenVINO QAT) để dự đoán top 5 kết quả chính xác nhất.
+* ** Web API chạy ngầm (FastAPI):** Cung cấp API endpoint `/predict` xử lý video tải lên, tự động trích xuất 8 khung hình và sử dụng mô hình tối ưu siêu nhẹ (OpenVINO QAT) để dự đoán top 5 kết quả chính xác nhất.
 
-## 📂 Cấu trúc thư mục
+##  Cấu trúc thư mục
 
-\`\`\`text
+\`
 nhan-dang-ngon-ngu-ky-hieu/
 │
 ├── models/                  # Chứa file nhãn .csv và text hướng dẫn tải model (Vì file model lớn nên không tải trực tiếp lên GitHub)
@@ -27,15 +27,15 @@ nhan-dang-ngon-ngu-ky-hieu/
 │── uploads/                 # Thư mục tạm lưu video (tự động dọn dẹp)
 ├── requirements.txt         # Danh sách các thư viện cần cài đặt
 └── README.md                # Tài liệu hướng dẫn (Bạn đang đọc nó đây!)
-\`\`\`
+\`
 
 ## 🚀 Hướng dẫn Cài đặt
 
 **Bước 1:** Clone (Tải) kho lưu trữ này về máy tính của bạn:
-\`\`\`bash
+\`bash
 git clone 
 cd UsimKD
-\`\`\`
+\`
 
 **Bước 2:** Cài đặt các thư viện cần thiết:
 \`\`\`bash
