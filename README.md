@@ -16,7 +16,7 @@ Chào mừng bạn đến với dự án AI nhận dạng ngôn ngữ ký hiệu
 
 ##  Cấu trúc thư mục
 
-\`
+```text
 nhan-dang-ngon-ngu-ky-hieu/
 │
 ├── models/                  # Chứa file nhãn .csv và text hướng dẫn tải model (Vì file model lớn nên không tải trực tiếp lên GitHub)
@@ -27,7 +27,7 @@ nhan-dang-ngon-ngu-ky-hieu/
 │── uploads/                 # Thư mục tạm lưu video (tự động dọn dẹp)
 ├── requirements.txt         # Danh sách các thư viện cần cài đặt
 └── README.md                # Tài liệu hướng dẫn (Bạn đang đọc nó đây!)
-\`
+```
 
 ## 🚀 Hướng dẫn Cài đặt
 
@@ -44,24 +44,24 @@ pip install -r requirements.txt
 
 **Bước 3:** Tải Model AI
 * Vì giới hạn dung lượng của GitHub, các file model không được tải lên trực tiếp.
-* Vui lòng tải 4 file model tại [https://drive.google.com/drive/folders/12Y0e17dUGkOCPnOiLAkddmU5CMDqNegb?usp=sharing] 
+* Vui lòng tải 4 file model tại https://drive.google.com/drive/folders/12Y0e17dUGkOCPnOiLAkddmU5CMDqNegb?usp=sharing
 
 ## 💻 Hướng dẫn Sử dụng
 
 ### 1. Chạy nhận dạng trực tiếp qua Webcam (Realtime)
 Mở terminal và chạy lệnh sau để bật camera:
-\`\`\`bash
+```bash
 python main_realtime_(..).py
-\`\`\`
+```
 *(Nhấn phím `q` để thoát camera)*
 
 ### 2. Chạy Web API Server (FastAPI)
 Mở terminal và khởi động server:
-\`\`\`bash
+```bash
 python script_check.py
-\`\`\`
+```
 * Server sẽ chạy tại địa chỉ: `http://localhost:8050`
 * Bạn có thể xem tài liệu API tự động sinh ra và test trực tiếp trên trình duyệt bằng cách truy cập: `http://localhost:8050/docs`
 
-## 🤝 Ghi chú của tác giả
+##  Ghi chú của tác giả
 Dự án này được xây dựng trong quá trình tôi bắt đầu hành trình tự học lập trình và AI từ những bước đầu tiên. Rất mong nhận được sự góp ý từ mọi người!
